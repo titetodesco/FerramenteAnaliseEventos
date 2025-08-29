@@ -19,10 +19,10 @@ st.set_page_config(page_title="Análise Integrada de Eventos (ESO)", layout="wid
 st.title("🛡️ Análise Integrada de Eventos (ESO) – WS × Precursores (HTO) × Fatores (TaxonomiaCP)")
 
 # ---- URLs dos dados no GitHub (RAW) ----
-URL_WS = "https://raw.githubusercontent.com/titetodesco/CorrelacaoWS-PREC/main/DicionarioWaekSignals.xlsx"
-URL_PRECS = "https://raw.githubusercontent.com/titetodesco/CorrelacaoWS-PREC/main/precursores_expandido.xlsx"
-URL_TAXO = "https://raw.githubusercontent.com/titetodesco/CondicionantesPerformance/main/TaxonomiaCP_Por.xlsx"
-URL_TRIPLO = "https://raw.githubusercontent.com/titetodesco/CorrelacaoWS-PREC/main/MapaTriplo_tratado.xlsx"
+URL_WS = "https://raw.githubusercontent.com/titetodesco/FerramenteAnaliseEventos/main/DicionarioWaekSignals.xlsx"
+URL_PRECS = "https://raw.githubusercontent.com/titetodesco/FerramenteAnaliseEventos/main/precursores_expandido.xlsx"
+URL_TAXO = "https://raw.githubusercontent.com/titetodesco/CFerramenteAnaliseEventos/main/TaxonomiaCP_Por.xlsx"
+URL_TRIPLO = "https://raw.githubusercontent.com/titetodesco/FerramenteAnaliseEventos/main/MapaTriplo_tratado.xlsx"
 
 # ---- Thresholds padrão ----
 DEFAULT_WS_TH = 0.50
