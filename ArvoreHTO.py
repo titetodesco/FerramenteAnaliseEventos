@@ -10,7 +10,7 @@ st.set_page_config(page_title="Árvore HTO → Precursores → Weak Signals", la
 st.title("🌳 Árvore: HTO → Precursores → Weak Signals")
 
 # ===== 1) Fonte dos dados (XLSX no GitHub) =====
-URL_XLSX = "https://raw.githubusercontent.com/titetodesco/VisualizarPrecSinaisFracosReports/main/MapaTriplo_tratado.xlsx"
+URL_XLSX = "https://raw.githubusercontent.com/titetodesco/FerramentaAnaliseEventos/main/MapaTriplo_tratado.xlsx"
 
 @st.cache_data(ttl=300, show_spinner=True)
 def load_excel(url: str) -> pd.DataFrame:
